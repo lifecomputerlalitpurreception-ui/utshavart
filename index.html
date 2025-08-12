@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Marketplace Utshav Art & Texture</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="mandu.jpg" alt="Utshav Art & Texture Logo" class="momo">
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li class="nav-item active"><a href="index.html">Home</a></li>
+          <li class="nav-item active"><a href="drawings.html">Buy Art</a></li>
+          <li class="nav-item"><a href="about.html">About Us</a></li>
+
+        </ul>
+
+        <div class="nav-actions">
+          <a href="account.html" class="nav-btn"><i class="fas fa-user"></i> Account</a>
+          <a href="wishlist.html" class="nav-btn"><i class="far fa-heart"></i></a>
+          <a href="cart.html" class="nav-btn cart-btn">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count">3</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>SIMPLY ART. SIMPLY BEAUTIFUL</h1>
+        <p class="subtitle">For seventeen years, artists and buyers have trusted Utshav art and texture to buy
+          and sell art. Now find your perfect art.</p>
+        <div class="search-container">
+          <input type="search" id="searchInput" placeholder="Search for art categories..." class="search-input">
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+          <div class="search-dropdown" id="searchDropdown"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+      <ul id="itemList" class="category-list">
+        <li class="category-item" data-category="painting">
+          <i class="fas fa-palette"></i> Painting & Prints
+        </li>
+        <li class="category-item" data-category="photography">
+          <i class="fas fa-camera"></i> Photography
+        </li>
+        <li class="category-item" data-category="drawings">
+          <i class="fas fa-pencil-alt"></i> Drawings & Illustration
+        </li>
+        <li class="category-item" data-category="digital-art">
+          <i class="fas fa-laptop-code"></i> Digital Art
+        </li>
+        <!-- More categories... -->
+      </ul>
+    </section>
+
+    <section class="featured-artists">
+      <div class="container">
+        <h2 class="section-title">Featured Artists</h2>
+        <p class="section-subtitle">Discover the creative minds shaping contemporary art</p>
+
+        <div class="artist-grid">
+          <!-- Artist Card 1 -->
+          <div class="artist-card">
+            <div class="artist-img" style="background-image: url('art4.jpg');">
+              <div class="overlay">
+                <a href="Art texture.html" class="view-work">View Portfolio</a>
+              </div>
+            </div>
+            <div class="artist-content">
+              <h3>Art & Texture</h3>
+              <p class="specialty">Mixed Media</p>
+              <p>A collective known for tactile, layered compositions that bring modern spaces to life.</p>
+              <a href="Art texture.html" class="artist-link">Learn more →</a>
+            </div>
+          </div>
+
+          <!-- Artist Card 2 -->
+          <div class="artist-card">
+            <div class="artist-img" style="background-image: url('art52.jpg');">
+              <div class="overlay">
+                <a href="Modern.html" class="view-work">View Portfolio</a>
+              </div>
+            </div>
+            <div class="artist-content">
+              <h3>Modern Art</h3>
+              <p class="specialty">Contemporary</p>
+              <p>Contemporary storytellers redefining minimalism with bold structure and color.</p>
+              <a href="Modern.html" class="artist-link">Learn more →</a>
+            </div>
+          </div>
+
+          <!-- Artist Card 3 -->
+          <div class="artist-card">
+            <div class="artist-img" style="background-image: url('art.jpg');">
+              <div class="overlay">
+                <a href="kalastudio.html" class="view-work">View Portfolio</a>
+              </div>
+            </div>
+            <div class="artist-content">
+              <h3>Kala Studio</h3>
+              <p class="specialty">Digital Fusion</p>
+              <p>A fusion of traditional motifs and digital media, merging heritage with modern design.</p>
+              <a href="kalastudio.html" class="artist-link">Learn more →</a>
+            </div>
+          </div>
+
+          <!-- Artist Card 4 -->
+          <div class="artist-card">
+            <div class="artist-img" style="background-image: url('716acbfd-afd9-44e2-b795-673f4a35ac54.jpg');">
+              <div class="overlay">
+                <a href="Green.html" class="view-work">View Portfolio</a>
+              </div>
+            </div>
+            <div class="artist-content">
+              <h3>Green Art</h3>
+              <p class="specialty">Eco Art</p>
+              <p>Sustainably made pieces using recycled and natural materials for eco-conscious design.</p>
+              <a href="Green.html" class="artist-link">Learn more →</a>
+            </div>
+          </div>
+
+          <!-- Artist Card 5 -->
+          <div class="artist-card">
+            <div class="artist-img" style="background-image: url('54.jpg');">
+              <div class="overlay">
+                <a href="Golden.html" class="view-work">View Portfolio</a>
+              </div>
+            </div>
+            <div class="artist-content">
+              <h3>Golden Brush</h3>
+              <p class="specialty">Fine Art</p>
+              <p>Elegant brushwork and luminous finishes define this artist's luxurious style.</p>
+              <a href="Golden.html" class="artist-link">Learn more →</a>
+            </div>
+          </div>
+
+          <!-- Artist Card 6 -->
+          <div class="artist-card">
+            <div class="artist-img" style="background-image: url('9c7574ad-1f87-45e9-8caf-3134047584e3.jpg');">
+              <div class="overlay">
+                <a href="Clay.html" class="view-work">View Portfolio</a>
+              </div>
+            </div>
+            <div class="artist-content">
+              <h3>Clay Masters</h3>
+              <p class="specialty">Ceramics</p>
+              <p>Masters of ceramics, creating functional yet sculptural clay art forms.</p>
+              <a href="Clay.html" class="artist-link">Learn more →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-footer">
+          <a href="#" class="view-all">View All Artists</a>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>Utshav Art & Texture</h3>
+          <p>Connecting art lovers with talented artists since 2015. Our mission is to make art accessible to
+            everyone while supporting artists worldwide.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="exhibitions.html">Exhibitions</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Customer Service</h3>
+          <ul class="footer-links">
+            <li><a href="help.html">Help Center</a></li>
+            <li><a href="shipping.html">Shipping & Returns</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <div class="footer-contact">
+            <p><i class="fas fa-map-marker-alt"></i> 123 Art Street, Creative District, Kathmandu, Nepal</p>
+            <p><i class="fas fa-phone-alt"></i> +977 9803554217</p>
+            <p><i class="fas fa-envelope"></i> info@utshavart.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Utshav Art & Texture. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms
+            of Use</a></p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="process.js"></script>
+</body>
+
+</html>
